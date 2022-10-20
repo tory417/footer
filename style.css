@@ -1,0 +1,82 @@
+body{
+	background-color: #f5f5f5;
+	font-family: Segoe UI;
+}
+footer{
+	background-color: #2a4f6e;
+	clear: both;
+	padding: 15px;
+	color: white;
+	margin: 15px;
+	width: 97%;
+}
+.footer_top{
+	display: flex;
+	justify-content: space-around;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+	text-decoration: underline;
+	
+}
+.menu{
+	display: inline-block;
+	width: 30%;
+	padding: 20px 60px 5px 120px;
+	font-size: 15px;
+}
+.menu_modefy{
+	padding: 20px 60px 5px 50px;
+}
+.image{
+	display: flex;
+	justify-content: space-around;
+	padding: 30px 10px 10px 10px;
+}
+.fb a{
+	display: inline-block;
+	background-image: url(img/fb_gray.png);
+	background-size: 100%;
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+.fb a:hover{
+	background-image: url(img/fb.png);
+}
+.insta a{
+	display: inline-block;
+	background-image: url(img/insta_gray.png);
+	background-size: 100%;
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+.insta a:hover{
+	background-image: url(img/insta.png);
+}
+.youtube a{
+	display: inline-block;
+	background-image: url(img/youtube_gray.png);
+	background-size: 100%;
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+.youtube a:hover{
+	background-image: url(img/youtube.png);
+}
+hr{
+	color: white;
+}
+.line{
+	text-align: center;
+	font-size: 10px;
+}
